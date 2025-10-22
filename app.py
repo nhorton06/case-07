@@ -11,7 +11,7 @@ load_dotenv()
 
 # --- Configuration ---
 AZURE_STORAGE_CONNECTION_STRING = os.getenv("AZURE_STORAGE_CONNECTION_STRING")
-CONTAINER_NAME = os.getenv("AZURE_BLOB_CONTAINER", "kbr8eycase07")
+CONTAINER_NAME = os.getenv("AZURE_BLOB_CONTAINER", "case7dxx6gu")
 MAX_FILE_SIZE_MB = 10
 ALLOWED_MIME_TYPES = {"image/png", "image/jpeg", "image/jpg", "image/gif", "image/webp"}
 
